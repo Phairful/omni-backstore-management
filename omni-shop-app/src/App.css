@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+  body {
+    background-color: #282c34;
+  }
+  .rounded-table-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .rounded-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .rounded-table th,
+  .rounded-table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .rounded-table thead {
+    background-color: #333; /* Dark background color for the header row */
+    color: #fff; /* White text color for the header row */
+  }
+  
+  .rounded-table-container {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .rounded-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rounded-table th,
+  .rounded-table td {
+    padding: 8px;
+    text-align: left;
+  }
+
+
+  .celulares-form-container {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form-label {
+    color: #fff; 
+  }
+
+
+body {
+  margin: 0;
+  padding: 0; 
+  background-image: url('./icons/Background\ _Mesa\ de\ trabajo\ 1.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  color: rgb(195, 60, 60);
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+
+}
+
+h1,h2 {color: #fff;
+}
+
+p {color: #fff;
+}
+
+.nav-item {color: #fff}
